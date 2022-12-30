@@ -1,0 +1,218 @@
+
+*{
+    font-size:  .75vw;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main{
+width: 100%;
+height: auto;
+}
+header{
+
+
+    display: flex;
+    flex-direction: row;
+   
+    width: 100%;
+    background-color: black;
+    height: 80px;
+}
+
+.netflix-name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 10%;    
+}
+.netflix-name img{
+    width: 100px;
+    height: 40px;
+   
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.menu ul {
+    display: flex;
+   
+  
+
+}
+.menu ul li  {
+    display: block;
+    margin-left: 20px;
+    
+  
+}
+.menu ul li a  {
+  text-decoration:none;
+  color: #fff;
+  font-weight: 500;
+    
+  
+}
+.side-right-header{
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+    margin-right: 100px;
+}
+.side-right-header img{
+    color: white;
+    width: 32px;
+    height: 32px;
+    
+    
+}
+
+.side-right-header button{
+
+   width: 50%;
+   height: 40px;
+   font-size: 14px;
+   background-color:#e50914;
+   color: #fff;
+   font-weight:bold;
+   border-radius: 4px;
+
+    
+}
+
+.container{
+    width: 100%;
+    height: 1250px;
+    background-image: url("./assets/sonic.webp");
+    background-repeat: no-repeat;
+    background-size: 2160px 1050px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    
+}
+
+.container-description{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 43%;
+    height:750px;
+}
+
+.rank{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    height: 280px;
+}
+.rank-top10{
+    display: flex;
+    flex-direction: column;
+    background-color: #e50914;
+    border-radius: 4px;
+    
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.rank-top10 p{
+    font-weight: 400;
+    margin: 2px;
+    color: #fff;
+    font-size: 16px;
+   font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+   
+}
+
+.rank-text{
+   
+}
+.rank-group{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rank-text p{
+    color: #fff;
+    font-size: 1.6vw;
+  
+   font-weight: 500;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+   
+}
+
+.description-text p{
+   text-justify:auto;
+    color: #fff;
+    text-align: justify;
+    
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.1vw;
+    text-shadow: 2px 2px 4px rgb(0 0 0 / 45%);
+    width: 100%;
+
+}
+.description-text{
+    display: flex;
+    height: 230px;
+    
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text-ajust{
+    width: 80%;
+}
+
+.container-buttons{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+
+}
+
+.container-buttons button{
+    margin-right: 10px;
+
+}
+
+#information{
+    width: 300px;
+    height: 54px;
+    color: #fff;
+    border: solid 2x;
+    border-radius: 4px;
+    border-color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+ 
+    background-color: rgba(109, 109, 110, 0.7);;
+   
+}
+
+#assistir{
+    width: 190px;
+    height: 54px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: bold;
+   
+}
